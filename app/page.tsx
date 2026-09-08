@@ -141,7 +141,7 @@ function Login({ onLogin }: { onLogin: (role: Role, supplierId: string) => void 
         <h2>Sign in</h2>
         <label>Demo account</label>
         <select value={choice} onChange={(e) => setChoice(e.target.value)}>
-          <option value="cps">Crime Prevention Services Ltd</option>
+          <option value="cps">Sigma Lobby Markets</option>
           <option value="demo-coffee">Demo Coffee Supplier</option>
           <option value="demo-garage">Demo Garage Equipment Supplier</option>
           <option value="admin">Premier Admin</option>
