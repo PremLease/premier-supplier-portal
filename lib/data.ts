@@ -17,9 +17,9 @@ export type Supplier = {
 
 export const suppliers: Supplier[] = [
   {
-    id: "cps",
-    name: "Crime Prevention Services Ltd",
-    rateCard: "CPS 2026",
+    id: "Sigma",
+    name: "Sigma Lobby Markets",
+    rateCard: "Sigma Lobby Markets 2026",
     minValue: 1000,
     maxValue: 100000,
     options: [
